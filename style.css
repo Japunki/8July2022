@@ -1,3 +1,30 @@
-.grid_div {
+.top_section{
+    border: 1px solid black;
+    grid-area: header;
+    padding: 75px;
+    text-align: center;
+    font-weight: bold;
+}
+.grid_container {
+border: 1px solid black;
+padding-left: 150px;
+padding-right: 150px;
 display: grid;
+grid-template-columns: auto auto auto auto;
+}
+.grid_item{
+    background-color: rgb(40, 40, 105);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: white
+}
+.bottom_section{
+    border: 1px solid black;
+grid-area: footer;
+padding: 75px;
+text-align: center;
+text-align: center;
+font-weight: bold;
 }
